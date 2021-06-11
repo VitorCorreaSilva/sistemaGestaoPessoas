@@ -1,9 +1,10 @@
-#include <iostream>
-
-using namespace std;
+#include "teste.hpp"
 
 int main()
 {
-	cout << "Hello World!!" << endl;
+
+	Teste teste;
+	teste.fornecedor();
+
 	return 0;
 }
