@@ -1,1 +1,1 @@
-# sistemaGestaoPessoas
+# Sistema para Gestão de Pessoas
