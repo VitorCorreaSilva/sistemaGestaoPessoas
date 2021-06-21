@@ -16,25 +16,28 @@ int main()
 	
 	int opcao = 99999;
 	while(opcao != 0){
+		cout << "-------------------------" << endl;
 		cout << "1 - Adicionar pessoa" << endl;
 		cout << "2 - Atualizar pessoa" << endl;
 		cout << "3 - Relatorios" << endl;
 		cout << "0 - Sair" << endl;
 		cout << "Opcao: ";
 		cin >> opcao;
+		cout << "-------------------------" << endl;
 		switch(opcao){
 			case 0:
 				cout << "Programa esta encerrando..." << endl;
 			break;
 			case 1:
 				int opPessoa;
+				cout << "-------------------------" << endl;
 				cout << "1 - Fornecedor" << endl;
 				cout << "2 - Administrador" << endl;
 				cout << "3 - Operario" << endl;
 				cout << "4 - Vendedor" << endl;
 				cout << "Opcao: ";
 				cin >> opPessoa;
-
+				cout << "-------------------------" << endl;
 				cin.clear();
 				cin.sync();
 				switch(opPessoa){
@@ -166,13 +169,14 @@ int main()
 			break;
 			case 2:
 				int at;
+				cout << "-------------------------" << endl;
 				cout << "1 - Fornecedor" << endl;
 				cout << "2 - Administrador" << endl;
 				cout << "3 - Operario" << endl;
 				cout << "4 - Vendedor" << endl;
 				cout << "Opcao: ";
 				cin >> at;
-
+				cout << "-------------------------" << endl;
 				cin.clear();
 				cin.sync();
 				switch(at){
@@ -237,7 +241,7 @@ int main()
 							cout << "Novo valor da divida: ";
 							cin >> valor;
 							fornecedor.setValorDivida(valor);
-						}
+							}
 
 						if(cont > 0){
 							empresa.atualizarFornecedor(fornecedor, nomeAntigo);
@@ -559,12 +563,13 @@ int main()
 			break;
 			case 3:
 				int rel;
+				cout << "-------------------------" << endl;
 				cout << "1 - Pessoas" << endl;
 				cout << "2 - Fornecedores" << endl;
 				cout << "3 - Empregados" << endl;
 				cout << "Opcao: ";
 				cin >> rel;
-
+				cout << "-------------------------" << endl;
 				switch(rel){
 					case 1:
 						cout << endl ;
@@ -578,12 +583,14 @@ int main()
 					break;
 					case 3:
 						int emp;
+						cout << "-------------------------" << endl;
 						cout << "1 - Todos" << endl;
 						cout << "2 - Administradores" << endl;
 						cout << "3 - Operarios" << endl;
 						cout << "4 - Vendedores" << endl;
 						cout << "Opcao: ";
 						cin >> emp;
+						cout << "-------------------------" << endl;
 						switch(emp){
 							case 1:
 								cout << endl ;

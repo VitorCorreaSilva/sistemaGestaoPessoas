@@ -48,6 +48,4 @@ class Empresa
 		vector<Vendedor> vendedores;
 };
 
-
-
 #endif
